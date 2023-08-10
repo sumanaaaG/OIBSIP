@@ -2,7 +2,7 @@
 1.Basic Calculator-WEB DEVELOPMENT PROJECT
 
 This project is a simple web-based calculator application that allows users to perform basic arithmetic operations. The calculator's functionality is implemented using HTML, CSS, and JavaScript.
-The HTML structure of the calculator includes a text input field (with the id 'display') where users can see and input arithmetic expressions, and a set of buttons for various numerical digits, operators, and control actions. The available buttons include digits from 0 to 9, operators like addition, subtraction, multiplication, and division, as well as special buttons for clearing the input ('AC'), calculating the result ('='), parentheses, percentage, and a decimal point.
+The HTML structure of the calculator includes a text input field (with the id 'display') where users can see and input arithmetic expressions, and a set of buttons for various numerical digits, operators, and control actions.
 The JavaScript code interacts with the HTML elements to provide the calculator's functionality. 
 The key features of the calculator include:
 1)Input Handling: The calculator handles user input through button clicks. When a digit button is clicked, the corresponding digit is appended to the input field. Operators and special buttons update the expression accordingly.
