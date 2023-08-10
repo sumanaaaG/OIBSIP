@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,intial-scale=1">
+    <title>To-Do List task3</title>
+    <link rel="stylesheet" href="3 css.css">
+    <script src="3 javascript.js" defer></script>
+</head>
+<body>
+    <div class="todo">
+    <h1><i>To-Do List</i></h1>
+    
+    <h2>Organize your life and work peacefully</h2>
+    <h3>The To-Do List helps you become focused,oranized and calm</h3>
+        
+    <p>Let's add our today's activities</p>
+    </div>
+    <div class="box">
+        <div class="header">
+            <a href="#" id="active_tasks">Active Tasks</a>
+            <a href="#" id="completed_tasks">Completed Tasks</a>
+        </div>
+
+        <div class="container">
+            <div class="active-items" id="active_items"></div>
+            <div class="completed-items" id="completed_items"></div>
+            <button id="clear_completed" class="clear-button">Clear All</button>
+        </div>
+
+        <template id="item_temp">
+            <div class="item">
+                <input type="checkbox" class="done">
+                <input type="text" class="descp" placeholder="Task">
+                <button class="remove">Clear</button> 
+            </div>
+        </template>
+
+        <button id="add" class="add-button">Add Item</button>
+    </div>
+</body>
+</html>
