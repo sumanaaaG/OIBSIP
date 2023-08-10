@@ -1,0 +1,48 @@
+body{
+    padding:0;
+    margin:0;
+    background:linear-gradient(to right,#00AAFF ,#00FF6C);
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-mathematics-education-pink-plaid-background-image_337364.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border:none; 
+    
+
+}
+button{
+    background-color: black;
+    color: white;
+    padding:20px 40px;
+    width:100%;
+    font-size: 20px;
+    font-variant-numeric:normal ;
+    height:50px;
+    margin:6px;
+    border-radius: 20px;
+}
+.container{
+    display:inline-block;
+    border-radius: 50px;
+    background-color: rgba(218, 95, 39, 0.226);
+    padding:20px;
+}
+input{
+    border-radius: 20px;
+    scroll-behavior: smooth;
+    font-size: 30px;
+    height:50px;
+   
+}
+.main{
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
