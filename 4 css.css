@@ -1,0 +1,121 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+header {
+    background-color:rgba(81, 165, 70, 0.568);
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+  }
+.container{
+    height:100vh;
+    width:100%;
+    background:url("book.jpeg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:30px;
+}
+.form{
+    position:absolute;
+    background: white;
+    border-radius: 6px;
+    max-width: 450px;
+    width: 100%;
+    padding: 30px;
+    border: 10px rgb(163, 233, 163);
+}
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+
+}
+.forms.show-signup .form.signup{
+opacity: 1;
+pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+    }
+header{
+    font-size: large;
+    font-weight: 600;
+    color:black;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+}
+.form.field{
+    height:50px;
+    width:100%;
+margin-top: 20px;
+position: relative;
+border-radius: 5px;
+}
+.field input,
+.field button{
+    height:100%;
+    width:100%;
+    border:none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field button{
+    background-color: rgb(117, 117, 214);
+    color:white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    background-color: rgb(117, 117, 214);
+}
+.field input{
+    border: 2px solid white;
+    padding:0 15px;
+    outline: none;
+
+}
+.field input:focus{
+border-bottom-width: 2px;
+}
+.eye{
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    right: 10px;
+    transform:translateY(-50%);
+    padding: 5px;
+    cursor: pointer;
+    color:grey;
+    
+}
+.form_link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form_link span,
+.form_link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+}
+.form a{
+    color:rgb(29, 88, 155);
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration:underline;
+}
+
+

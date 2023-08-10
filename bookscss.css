@@ -1,0 +1,179 @@
+
+header {
+  background-color:rgba(81, 165, 70, 0.568);
+  padding: 10px;
+  text-align: left;
+  font-size: 30px;
+  color: white;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(241, 241, 185);
+  border-radius:5px;
+
+  
+}
+
+.topnav a{
+  float:left;
+  display:block;
+  text-align: center;
+  color: black;
+  font-size: medium;
+  padding: 14px 16px;
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+.topnav input[type=text] {
+float: right;
+padding: 6px;
+border: none;
+margin-top: 8px;
+margin-right: 16px;
+font-size: 17px;
+}
+.login{
+float: right;
+text-align: center;
+display: block;
+color: black;
+font-size: medium;
+}
+.sign{
+
+  padding: 20px;
+margin-left:30px;
+margin-right:30px;
+background-size: 50%;
+height:50%;
+font-size: large;
+color: rgb(73, 219, 219);
+}  
+body{
+background-color: rgb(236, 236, 208);
+border-radius:5px;
+margin-right: 20px;
+background:url("book.jpeg");
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color:black;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+
+.container
+{
+  width: 80%;
+  margin: auto; /*means equidistant from all sides*/
+}
+.box{
+background-color: rgb(148, 138, 138);
+color: #f0f2f5;
+border-left:5px;
+border-right: 5px;
+padding: 5px;
+margin-top: 10px;
+
+
+}
+.aligned {
+display: flex;
+align-items: center;
+}
+.checked {
+color: orange;
+}
+.open-button {
+background-color: rgb(238, 243, 162);
+color: rgb(10, 10, 10);
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+opacity: 0.8;
+top: 23px;
+right: 28px;
+width: 280px;
+}
+
+
+
+
+
+
+
+.box-column {
+width: auto;
+
+
+}
+.color-box {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+.color-box li {
+color:black ;
+justify-content: left;
+text-align: left;
+background-color: #ddd;
+margin-bottom: 3px;
+font-size:20px;
+padding: 10px;;
+}
+
+
+#quo{
+background-color: lightblue;
+color: black;
+padding: 10px;
+text-align: center;
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+
+margin-top: 10px;
+width: auto;
+
+}
+.img{
+background-image: url('https://i.insider.com/619bbeff1ca92500180c3b27?width=1000&format=jpeg&auto=webp');
+}
